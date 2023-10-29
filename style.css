@@ -1,0 +1,299 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Navbar */
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    position:fixed;
+    background-image: url('https://img.freepik.com/premium-photo/bloodhounddog_830154-297.jpg');
+}
+
+.logo>img{
+    width: 22%;
+    margin-top: 9px;
+}
+
+.box{
+    width: 22%;
+    margin: 38px;
+    margin-right: 254px;
+
+}
+.btn{
+    width: 8%;
+    margin: 38px;
+}
+.icon{
+  display: flex;
+  justify-content: space-evenly;
+}
+.icon>i{
+    margin-top: 47px;
+    gap: 10px;
+    width: 37px;
+}
+
+/* hero section */
+.hero>img{
+width: 100%;
+}
+
+.concern{
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-evenly;
+    margin-top: 40px;
+
+}
+.concern>div{
+    display: flex;
+    border: 1px solid rgb(13, 243, 28);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+
+}
+
+.con>img{
+    width: 65px;
+    height: 64px;
+    border-radius: 50px;
+    padding: 9px;
+
+}
+.con>p{
+    text-align: center;
+    margin-top: 29px;
+    
+
+}
+.daily{
+    display: flex;
+    /* border: 1px solid red; */
+    height: auto;
+    width: 90%;
+    margin: auto;
+    padding-top: 20px;
+    justify-content: space-evenly;
+    margin-top: 70px;
+
+
+}
+.daily>div{
+    height: auto;
+    width: 20%;
+    border: 1px solid black;
+    background-color: rgb(212, 201, 186);
+    border-radius: 5px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+
+
+}
+.product1>img{
+    width: 100%;
+}
+.product1>p{
+    font-size: 22px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.daily1{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.daily1>i{
+   font-size: 30px; 
+   padding-left: 10px;
+   padding-top: 5px;
+
+
+}
+.daily1>button{
+    border: 1px solid black;
+    padding-right: 98px;
+    margin-right: 11px;
+    margin-bottom: 3px;
+    padding-top: 5px;
+
+
+}
+.buy{
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    padding-left: 9px;
+    border-radius: 10px;
+
+}
+.view{
+   display: flex;
+   justify-content: center;
+   height: 30px;
+   padding-top: 20px;
+    
+}
+.view>button{
+    height: 30px;
+    width: 200px;
+    font-size: 20px;
+    background-color: rgb(178, 240, 71);
+    border: none;
+    border-radius: 10px;
+}
+.conf{
+    display: flex;
+    justify-content: left;
+    padding-top: 20px;
+    margin-left: 40px;
+}
+
+.conf1{
+    display: flex;
+    justify-content:space-evenly;
+    padding-top:20px ;
+}
+.Are>h1{
+    margin-left: 100px;
+}
+.doc{
+    display: flex;
+    border: 1px solid black;
+    background-color: #59702f;
+    border-radius: 10px;
+    width: 500px;
+
+
+}
+.doc>img{
+    width: 20%;
+    border-radius: 50%;
+    padding: 5px;
+}
+.doc>p{
+    margin-top: 35px;
+    margin-left: 34px;
+    font-size: 20px;
+    color: white;
+    font-weight: 800;
+}
+.real{
+    display: flex;
+    justify-content: left;
+    margin-left: 131px;
+    margin-top: 70px;
+}
+.real>h2{
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.pro{
+    display: flex;
+    /* border: 1px solid red; */
+    height: 220px;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+.pro>div{
+    height: 220px;
+    width: 22%;
+    border: 1px solid black;
+    margin: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+.pro1>img{
+    width: 70%;
+    height: 150px;
+    margin-left: 45px;
+}
+.pro1>p{
+    font-size: 15px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.best{
+    margin-top: 35px;
+    margin-left: 131px;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.footer{
+    display: flex;
+    justify-content:space-evenly;
+    height: 300px;
+    width: 98%;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+.footer>div{
+    height: 300px;
+    width: 22%;
+
+}
+.ft1>img{
+    width: 60%;
+}
+.ft1>p{
+    font-size: 20px;
+    font-weight: 800;
+    margin: 10px;
+}
+.ft2>p{
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 40px;
+}
+.ft3>p{
+    margin-top: 30px;
+    font-weight: 700;
+
+}
+.ft3>input{
+    margin-top: 10px;
+    height: 40px;
+    width: 90%;
+}
+.allicon>i{
+    margin-top: 40px;
+    margin: 5px;
+}
+.footer2{
+    display: flex;
+    justify-content:space-evenly;
+    height: 200px;
+    width: 98%;
+    margin: auto;
+}
+.footer2>div{
+    height: 200px;
+    width: 22%; 
+}
+.footer21>h2{
+    margin: 10px;
+}
+.footer21>p{
+    margin: 10px;
+}
+.right{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #1a4039;
+}
+.right>p{
+    color: white;
+    margin: auto;
+    font-weight: 800;
+}
